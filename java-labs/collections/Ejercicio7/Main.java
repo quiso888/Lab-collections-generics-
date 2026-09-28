@@ -1,3 +1,5 @@
+package Ejercicio7;
+
 public class Main {
        // 7. En un banco, el sistema de atención al cliente debe manejar los turnos de manera ordenada.
     // Para lograrlo, se empleará una LinkedList (String), la cual permitirá agregar clientes en la
@@ -8,8 +10,8 @@ public class Main {
 
         // 1. Llegan clientes normales -> se agregan al final de la cola
         banco.agregarCliente("Ana");
-        banco.agregarCliente("Luis");
-        banco.agregarCliente("Marta");
+        banco.agregarCliente("Luisa");
+        banco.agregarCliente("Martaaa");
         IO.println(banco);                                   // [Ana, Luis, Marta]
 
         // 2. Se atiende al primero en la cola (FIFO)
